@@ -13,3 +13,9 @@ data/history.json
 # IDE
 .vscode/
 .idea/
+
+# PyInstaller Build Artifacts (BUNLARI SAKIN GÖNDERME)
+build/
+dist/
+*.spec
+*.exe
