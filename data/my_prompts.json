@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "raw": "kanka angular login guardi bozuldu bi bak",
+    "refined": "Angular projemde role-based login guard yapısı düzgün çalışmıyor. NORMAL_KULLANICI doğru yönlenirken, SISTEM_YONETICISI default route'a düşüyor. Guard ve routing yapılarını inceleyip sorunu tespit ederek çözüm öner.",
+    "category": "coding"
+  },
+  {
+    "id": "2",
+    "raw": "spring bootta soft delete nasil yapcaz",
+    "refined": "Spring Boot + JPA kullanarak soft delete mekanizması kurmak istiyorum. Entity seviyesinde silme tarihi alanı bulunan, repository sorgularında otomatik filtrelenen ve geri alınabilir bir yapı öner.",
+    "category": "coding"
+  },
+  {
+    "id": "3",
+    "raw": "bu projeden para kazanilir mi sence",
+    "refined": "Aşağıda özetlediğim SaaS proje fikrinin hedef kitlesini, gelir modelini ve pazardaki benzer ürünleri göz önünde bulundurarak para kazanma potansiyelini analiz et.",
+    "category": "product"
+  },
+  {
+    "id": "4",
+    "raw": "bu mail cok sert olmus yumusat",
+    "refined": "Aşağıdaki e-posta metnini daha yumuşak, profesyonel ve çözüm odaklı bir dille yeniden yaz. Karşı tarafı suçlayıcı ifadelerden kaçın. [Mail İçeriği]",
+    "category": "communication"
+  },
+  {
+    "id": "5",
+    "raw": "angular tablo cok cirkin oldu",
+    "refined": "Angular projemde kullandığım tablo bileşenini daha modern, kurumsal ve kullanıcı dostu hale getirmek istiyorum. Responsive yapı, ikonlu aksiyonlar ve temiz bir tasarım öner.",
+    "category": "frontend"
+  },
+  {
+    "id": "6",
+    "raw": "jwt mi oauth mu karar veremedim",
+    "refined": "Bu projede kullanıcı kimlik doğrulama için JWT mi yoksa OAuth (Google/GitHub) mu kullanmam gerektiğini; güvenlik, ölçeklenebilirlik ve kullanıcı deneyimi açısından karşılaştır.",
+    "category": "architecture"
+  },
+  {
+    "id": "7",
+    "raw": "bu sql cok yavas calisiyo",
+    "refined": "Aşağıdaki SQL sorgusunun performans problemlerini analiz et. Index önerileri, sorgu iyileştirmeleri ve alternatif çözümler sun. [SQL Sorgusu]",
+    "category": "database"
+  },
+  {
+    "id": "8",
+    "raw": "saas icin roadmap cikar",
+    "refined": "Bu SaaS proje fikri için MVP, v1, v2 ve v3 aşamalarını kapsayan; özellikler, teknik gereksinimler ve iş hedefleri içeren detaylı bir ürün roadmap'i hazırla.",
+    "category": "product"
+  },
+  {
+    "id": "9",
+    "raw": "three js sahne karisti kamera bozuldu",
+    "refined": "Three.js kullandığım 3D sahnede kamera kontrolü ve nesne konumlandırmaları bozuldu. Kamera, orbit controls ve sahne hiyerarşisini bozmadan düzenleme için çözüm öner.",
+    "category": "graphics"
+  },
+  {
+    "id": "10",
+    "raw": "dockerla bunu nasil ayaga kaldiririz",
+    "refined": "Bu backend uygulamasını Docker kullanarak ayağa kaldırmak istiyorum. Dockerfile, environment değişkenleri ve production-ready önerilerle birlikte açıkla.",
+    "category": "devops"
+  },
+  {
+    "id": "11",
+    "raw": "freelance is getirecek proje lazim",
+    "refined": "Freelance iş getirme potansiyeli olan, GitHub'da sergilenebilecek ve kurumsal müşterilere hitap eden 3 yazılım projesi fikri öner.",
+    "category": "career"
+  },
+  {
+    "id": "12",
+    "raw": "bunu daha kurumsal anlat",
+    "refined": "Aşağıdaki metni teknik ama kurumsal bir dille, yönetici seviyesine hitap edecek şekilde yeniden yaz. Gereksiz teknik detaya girmeden net bir anlatım kullan. [Metin]",
+    "category": "communication"
+  },
+  {
+    "id": "13",
+    "raw": "angular projeyi duzenleyelim",
+    "refined": "Mevcut Angular projesini modüler, sürdürülebilir ve ölçeklenebilir olacak şekilde klasör yapısı, naming convention ve best practice'ler ile yeniden yapılandıralım.",
+    "category": "frontend"
+  },
+  {
+    "id": "14",
+    "raw": "bu hata niye oluyo",
+    "refined": "Aşağıdaki hata mesajının olası nedenlerini analiz et ve adım adım çözüm öner. Gerekirse debug stratejisi de ekle. [Hata Mesajı]",
+    "category": "debugging"
+  },
+  {
+    "id": "15",
+    "raw": "startup fikri var ama emin degilim",
+    "refined": "Aşağıda özetlediğim startup fikrini problem-solution fit, hedef pazar, rekabet ve ölçeklenebilirlik açısından değerlendir.",
+    "category": "business"
+  },
+  {
+    "id": "16",
+    "raw": "bu kodu sadeleştir",
+    "refined": "Aşağıdaki kodu clean code prensiplerine uygun olacak şekilde sadeleştir. Okunabilirliği artır, gereksiz tekrarları kaldır ve isimlendirmeleri iyileştir. [Kod]",
+    "category": "coding"
+  },
+  {
+    "id": "17",
+    "raw": "linkedin icin post yaz",
+    "refined": "Yazılım kariyerim ve üzerinde çalıştığım proje hakkında profesyonel, samimi ve etkileşim odaklı bir LinkedIn paylaşımı hazırla.",
+    "category": "communication"
+  },
+  {
+    "id": "18",
+    "raw": "bu sistemi nasil monetize ederiz",
+    "refined": "Bu yazılım ürünü için freemium, abonelik ve kurumsal lisanslama gibi gelir modellerini karşılaştırarak en uygun monetizasyon stratejisini öner.",
+    "category": "product"
+  },
+  {
+    "id": "19",
+    "raw": "angular mi react mi karar veremedim",
+    "refined": "Bu proje özelinde Angular ve React'i; ekip yapısı, uzun vadeli bakım, performans ve öğrenme eğrisi açısından karşılaştır.",
+    "category": "architecture"
+  },
+  {
+    "id": "20",
+    "raw": "bunu readme ye nasil yazariz",
+    "refined": "Bu projeyi GitHub README dosyasında profesyonel şekilde anlatmak için; proje amacı, kurulum adımları, kullanılan teknolojiler ve ekran görüntüleri içeren bir şablon hazırla.",
+    "category": "documentation"
+  }
+]

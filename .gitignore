@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Veri & Modeller (Bunları git'e atma!)
+chroma_db/
+local_model/
+data/user_prompts.json
+data/history.json
+
+# IDE
+.vscode/
+.idea/
