@@ -3,10 +3,12 @@ import os
 from datetime import datetime
 from typing import List, Dict
 
+# Geçmiş verisinin tutulacağı yer
 HISTORY_FILE = "data/history.json"
 
 
 def load_history() -> List[Dict]:
+    """Geçmiş kayıtlarını JSON dosyasından okur."""
     if not os.path.exists(HISTORY_FILE):
         return []
     try:
@@ -17,6 +19,7 @@ def load_history() -> List[Dict]:
 
 
 def save_to_history(raw_prompt: str, refined_prompt: str):
+    """Yeni bir prompt işlemini geçmişe kaydeder."""
     history = load_history()
 
     new_entry = {
@@ -25,19 +28,21 @@ def save_to_history(raw_prompt: str, refined_prompt: str):
         "refined": refined_prompt
     }
 
-    # En başa ekle (En yeni en üstte)
+    # Listeye en başa ekle (En güncel en üstte)
     history.insert(0, new_entry)
 
-    # Son 50 kaydı tut (Dosya şişmesin)
+    # Sadece son 50 kaydı tut (Dosya şişmesin)
     history = history[:50]
 
-    # Klasör yoksa oluştur
+    # Klasör yoksa oluştur (Garanti olsun)
     os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
 
+    # Dosyaya yaz
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
 
 def clear_history():
+    """Geçmiş dosyasını siler."""
     if os.path.exists(HISTORY_FILE):
         os.remove(HISTORY_FILE)
